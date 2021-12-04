@@ -1,0 +1,205 @@
+/* 
+  mobileS: '320px',
+  mobileM: '375px',
+  mobileL: '425px',
+  tablet: '768px',
+  laptop: '1024px',
+  laptopL: '1440px',
+  desktop: '2560px'
+*/
+
+
+
+
+
+/* ========== For Desktop ========== */
+
+@media only screen and (max-width:2560px) and (min-width:1440px)
+{
+
+    .navbar-nav{
+        right: 14.5%;
+        margin-right: -7px;
+    
+    }
+
+    .banner p{
+        color: white;
+        width: 60%;
+        font-size: 1.2rem;
+        
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box h2{
+        font-size: 2.3rem;
+    }
+    
+    .feature-box p{
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .featured .col-md-4{
+        background: rgba(35, 46, 95, 0.712);
+        height: 100%;
+        padding: 0px 50px;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .news h2{
+        font-size: 2.3rem;
+    }
+    
+    
+    .news p{
+        font-size: 1rem;
+        width: 120%;
+    }
+}
+
+/* ========== For LaptopL ========== */
+
+@media only screen and (max-width:1440px) and (min-width:1024px)
+{
+    .featured .col-md-4{
+        padding: 0px 40px;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+/* ========== For Laptop ========== */
+
+@media only screen and (max-width:1024px) and (min-width:768px)
+{
+    .banner p{
+        width: 75%;
+        font-size: 0.9rem;
+    }
+
+    .feature-box .col-md-8{
+        padding: 0 30px;
+        padding-top: 25%;
+    }
+
+    .featured .col-md-4{
+        padding: 0px 10px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .news .col-md-6{
+        padding: 0 35px;
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+
+
+}
+
+
+/* ========== For Tablet ========== */
+
+@media only screen and (max-width:768px) and (min-width:425px)
+{
+    .nav-item a{
+        font-size: 0.95rem;        
+        line-height: 0.5cm;
+    }
+
+    .banner h1{
+        margin-top: 15%;
+        font-size: 2rem;
+    }
+
+
+    .banner p{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+}
+
+/* ========== For MobileL ========== */
+
+@media only screen and (max-width:425px) and (min-width:375px)
+{
+    .nav-item a{
+        font-size: 0.95rem;        
+        line-height: 0.2cm;
+    }
+
+    .banner h1{
+        font-size: 2.3rem;
+    }
+
+    .banner p{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .carousel-item embed{
+        width: 360px;
+        height: 270px;
+    }
+}
+
+/* ========== For MobileM ========== */
+
+@media only screen and (max-width:375px) and (min-width:320px)
+{
+    .nav-item a{
+        font-size: 0.95rem;        
+        line-height: 0.2cm;
+    }
+
+    .banner h1{
+        font-size: 2rem;
+    }
+
+    .banner p{
+        width: 90%;
+        font-size: 0.75rem;
+    }
+
+    .banner button{
+        padding: 15px 20px;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(253, 123, 100);
+        color: whitesmoke;
+        font-size: 0.9rem;
+        font-family: poppins;
+    }
+
+    .feature-box .col-md-8{
+        padding: 0 20px;
+        padding-top: 25%;
+    }
+
+    .carousel-item embed{
+        width: 300px;
+        height: 270px;
+    }
+
+    .news .col-md-6{
+        padding: 0 30px;
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+}

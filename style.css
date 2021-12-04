@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ----- Header Section ----- */
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 13, 14, 0)), url(".//Image/Banner1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.head-logo{
+    font-size: 2.5rem;
+    font-family: poppins;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+
+}
+
+
+
+.navbar-nav{
+    position: absolute;
+    /* background: red; */
+    width: 15%;
+    align-items: end;
+    right: 10%;
+    margin-right: -7px;
+
+}
+
+.nav-item a{
+    color: whitesmoke !important;
+}
+
+.nav-item a:hover{
+    color: gray !important;
+}
+
+
+.burger img{
+    height: 25px !important;
+    outline: none !important;
+    display: block !important;
+    outline: none !important;
+}
+
+
+
+
+
+/* ----- Banner Text ----- */
+
+
+.banner h1{
+    font-family: "poppins";
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.banner p{
+    color: white;
+    width: 50%;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+.banner button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(253, 123, 100);
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-family: poppins;
+}
+
+.banner .col-md{
+    /* margin-top: 130px; */
+    padding-top: 130px;
+}
+
+
+
+
+
+/* ----- About Section ----- */
+
+.about{
+    padding: 50px 0;
+}
+
+.about h1{
+    font-family: "poppins";
+    font-size: 2rem;
+    color: #293B5F;
+    margin-bottom: 30px;
+}
+
+.about .abt-img{
+    flex-basis: 25%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about .abt-img img{
+    width: 100%;
+    height: 60%;
+}
+
+.about h2{
+    font-family: "poppins";
+    font-size: 1rem;
+    color: #293B5F;
+    margin: 20px 0;
+}
+
+
+/* ----- Featured Section ----- */
+.featured{
+    padding: 30px 0;
+}
+
+.feature-box{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(13, 13, 14, 0.3)), url(".//Image/Feature.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.feature-box .col-md-8{
+    padding: 0 100px;
+    padding-top: 25%;
+    /* padding-bottom: 10%; */
+}
+
+.feature-box h2{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: poppins;
+    margin: 20px 0;
+}
+
+.feature-box p{
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.Feature-btn{
+    padding: 8px 18px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(253, 123, 100);
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+
+.Feature-btn2{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #94c8eb;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-family: poppins;
+    margin-bottom: 20%;
+}
+
+.featured .col-md-4{
+    background: rgba(35, 46, 95, 0.712);
+    height: 100%;
+    padding: 0px 50px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.stories h1{
+    color: whitesmoke;
+    font-family: poppins;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+
+
+.testimony h3{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.testimony p{
+    color: #acacac;
+    font-size: 0.8rem;
+}
+
+.testimony img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+hr{
+    color: whitesmoke !important;
+}
+
+
+
+
+
+/* ----- Featured Video Section ----- */
+.feat-video{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feat-video h1{
+    font-family: "poppins";
+    font-size: 2rem;
+    color: #293B5F;
+    margin-bottom: 10px;
+}
+
+.feat-video p{
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+
+.carousel-item embed{
+    width: 500px;
+    height: 270px;
+}
+
+.carousel-item{
+    margin-top: 20px;
+    text-align: center;
+    height: 430px;
+}
+
+.carousel-caption{
+    margin-bottom: 10px;
+}
+
+.carousel-caption h5{
+    margin-top: -90px;
+    font-weight: bold;
+    color: #293B5F;
+}
+
+
+
+.carousel-indicators button{
+    margin-top: -80px;
+    background-color: #293B5F !important;
+}
+
+
+
+
+/* ----- Newsletter Section ----- */
+
+
+
+.news{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(13, 13, 14, 0.3)), url(".//Image/News.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.news h2{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: poppins;
+    margin: 20px 0;
+    line-height: 1.2cm;
+}
+
+
+
+.news p{
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.news .col-md-6{
+    padding: 0 75px;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+
+.form{
+    text-align: center;
+    
+}
+
+.form input{
+    outline: none;
+    border: none;
+    width: 220px;
+    height: 25px;
+    background: transparent;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #9e9d9d ;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.form-btn{
+    width: 220px;
+    height: 60px;
+    border: none;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #94c8eb;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-family: poppins;
+}
+
+::placeholder{
+    color: #e0d7d7;
+}
+
+
+.form input[type=number]::-webkit-inner-spin-button,
+.form input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* .form hr{
+    background: #9e9d9d;
+    width: 200px;
+    
+} */
+
+
+
+
+/* ----- Inspiration Section ----- */
+.inspiration{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.inspiration h1{
+    font-family: "poppins";
+    font-size: 2rem;
+    color: #293B5F;
+    margin-bottom: 10px;
+}
+
+.inspiration p{
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.gallery{
+    padding: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 160px;
+    grid-auto-flow: dense;
+}
+
+.v-stretch{
+    grid-row: span 2;
+} 
+
+.h-stretch{
+    grid-column: span 2;
+} 
+
+.big-stretch{
+    grid-column: span 2;
+    grid-row: span 2;
+} 
+
+.gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 560px){
+    .v-stretch{
+        grid-row: span 1 ;
+    } 
+
+    .h-stretch{
+        grid-column: span 1;
+    } 
+    
+    .big-stretch{
+        grid-column: span 1;
+        grid-row: span 1;
+    } 
+}
+
+
+
+
+
+/* ----- Contact Section ----- */
+.contact{
+    padding: 50px 0;
+    border-bottom: 1px solid #94c8eb;
+    border-top: 1px solid #94c8eb;
+}
+
+
+.contact .col-md h2{
+    font-size: 1rem;
+    font-family: poppins;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #293B5F;
+}
+
+.contact .col-md li{
+    font-size: 0.8rem;
+    color: #76a7c7;
+    list-style: none;    
+    text-align: left;
+    line-height: 0.8cm;
+    cursor: pointer;
+}
+
+
+.contact .form input{
+    width: 250px;
+    height: 60px;
+    border: 1px solid #94c8eb;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-bottom: 15px; 
+}
+
+.contact .form .form-btn{
+    width: 250px;
+    
+}
+
+
+/* ----- Footer ----- */
+
+footer{
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 0.8rem;
+    color: #293B5F;
+    margin-top: 7px;
+}
